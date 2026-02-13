@@ -1,217 +1,217 @@
-# 🌟 LoveFlow - Modern Nonprofit Template
+# 🌟 LoveFlow - Template Moderno para ONGs
 
 <div align="center">
 
 ![LoveFlow Banner](https://vihisantos.github.io/ong-template/og-image.jpg)
 
-**A modern, accessible, and beautiful template for nonprofit organizations**
+**Um template moderno, acessível e bonito para organizações sem fins lucrativos**
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge)](https://vihisantos.github.io/ong-template/)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
+[![Demo ao Vivo](https://img.shields.io/badge/demo-ao_vivo-success?style=for-the-badge)](https://vihisantos.github.io/ong-template/)
+[![Licença](https://img.shields.io/badge/licença-MIT-blue?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
-[View Demo](https://vihisantos.github.io/ong-template/) · [Report Bug](https://github.com/vihisantos/ong-template/issues) · [Request Feature](https://github.com/vihisantos/ong-template/issues)
+[Ver Demo](https://vihisantos.github.io/ong-template/) · [Reportar Bug](https://github.com/vihisantos/ong-template/issues) · [Solicitar Funcionalidade](https://github.com/vihisantos/ong-template/issues)
 
 </div>
 
 ---
 
-## ✨ Features
+## ✨ Funcionalidades
 
-- 🎨 **Modern Design System** - Accessible Cyan/Orange palette (WCAG AAA compliant)
-- ♿ **Accessibility First** - WCAG AAA standards with high contrast and semantic HTML
-- 📱 **Fully Responsive** - Optimized for mobile, tablet, and desktop
-- ⚡ **Lightning Fast** - 80KB gzipped bundle, <7s build time
-- 🔍 **SEO Optimized** - Complete meta tags, Open Graph, and Twitter Cards
-- 🎯 **TypeScript** - Full type safety and IntelliSense support
-- 🚀 **CI/CD Ready** - Automated deployment with GitHub Actions
-- 🎭 **Modern Stack** - React 19, Vite 7, Tailwind CSS 4
-
----
-
-## 🎯 Perfect For
-
-- 🏥 Healthcare & Wellness Organizations
-- 🌱 Environmental & Sustainability NGOs
-- 📚 Educational Nonprofits
-- 🤝 Social Impact Projects
-- 💚 Charity & Fundraising Campaigns
+- 🎨 **Sistema de Design Moderno** - Paleta Ciano/Laranja acessível (compatível com WCAG AAA)
+- ♿ **Acessibilidade em Primeiro Lugar** - Padrões WCAG AAA com alto contraste e HTML semântico
+- 📱 **Totalmente Responsivo** - Otimizado para mobile, tablet e desktop
+- ⚡ **Super Rápido** - Bundle de 80KB comprimido, build em <7s
+- 🔍 **Otimizado para SEO** - Meta tags completas, Open Graph e Twitter Cards
+- 🎯 **TypeScript** - Segurança de tipos completa e suporte IntelliSense
+- 🚀 **CI/CD Pronto** - Deploy automatizado com GitHub Actions
+- 🎭 **Stack Moderna** - React 19, Vite 7, Tailwind CSS 4
 
 ---
 
-## 🚀 Quick Start
+## 🎯 Perfeito Para
 
-### Prerequisites
+- 🏥 Organizações de Saúde e Bem-Estar
+- 🌱 ONGs Ambientais e de Sustentabilidade
+- 📚 Organizações Educacionais sem Fins Lucrativos
+- 🤝 Projetos de Impacto Social
+- 💚 Campanhas de Caridade e Arrecadação de Fundos
+
+---
+
+## 🚀 Início Rápido
+
+### Pré-requisitos
 
 - Node.js 20+ 
-- npm or yarn
+- npm ou yarn
 
-### Installation
+### Instalação
 
 ```bash
-# Clone the repository
+# Clone o repositório
 git clone https://github.com/vihisantos/ong-template.git
 
-# Navigate to project directory
+# Navegue até o diretório do projeto
 cd ong-template
 
-# Install dependencies
+# Instale as dependências
 npm install
 
-# Start development server
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-Visit `http://localhost:5173` to see your app! 🎉
+Visite `http://localhost:5173` para ver seu app! 🎉
 
 ---
 
-## 📦 Build & Deploy
+## 📦 Build e Deploy
 
 ```bash
-# Build for production
+# Build para produção
 npm run build
 
-# Preview production build
+# Visualizar build de produção
 npm run preview
 
-# Deploy to GitHub Pages (automatic via GitHub Actions)
+# Deploy no GitHub Pages (automático via GitHub Actions)
 git push origin main
 ```
 
 ---
 
-## 🎨 Design System
+## 🎨 Sistema de Design
 
-### Color Palette
+### Paleta de Cores
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| **Primary** | `#0891B2` | Trust, calm, professional |
-| **Accent** | `#F97316` | CTAs, warmth, action |
-| **Background** | `#ECFEFF` | Soft, welcoming |
-| **Text** | `#164E63` | High contrast (WCAG AAA) |
+| Cor | Hex | Uso |
+|-----|-----|-----|
+| **Primária** | `#0891B2` | Confiança, calma, profissional |
+| **Acento** | `#F97316` | CTAs, calor, ação |
+| **Fundo** | `#ECFEFF` | Suave, acolhedor |
+| **Texto** | `#164E63` | Alto contraste (WCAG AAA) |
 
-### Typography
+### Tipografia
 
-- **Headings**: Fredoka (friendly, approachable)
-- **Body**: Nunito (highly legible, warm)
-
----
-
-## 📊 Quality Metrics
-
-| Category | Score | Status |
-|----------|-------|--------|
-| **Security** | 100% | ✅ 0 vulnerabilities |
-| **SEO** | 95% | ✅ Optimized |
-| **Performance** | 90% | ✅ Fast |
-| **Accessibility** | 100% | ✅ WCAG AAA |
-| **Code Quality** | 100% | ✅ No lint errors |
-
-**Overall: 96.7%** ⭐⭐⭐⭐⭐
+- **Títulos**: Fredoka (amigável, acessível)
+- **Corpo**: Nunito (altamente legível, caloroso)
 
 ---
 
-## 🛠️ Tech Stack
+## 📊 Métricas de Qualidade
+
+| Categoria | Pontuação | Status |
+|-----------|-----------|--------|
+| **Segurança** | 100% | ✅ 0 vulnerabilidades |
+| **SEO** | 95% | ✅ Otimizado |
+| **Performance** | 90% | ✅ Rápido |
+| **Acessibilidade** | 100% | ✅ WCAG AAA |
+| **Qualidade de Código** | 100% | ✅ Sem erros de lint |
+
+**Geral: 96.7%** ⭐⭐⭐⭐⭐
+
+---
+
+## 🛠️ Stack Tecnológica
 
 <div align="center">
 
-| Frontend | Styling | Build | Deployment |
-|----------|---------|-------|------------|
+| Frontend | Estilização | Build | Deploy |
+|----------|-------------|-------|--------|
 | ![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react) | ![Tailwind](https://img.shields.io/badge/Tailwind-4.1-06B6D4?logo=tailwindcss) | ![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?logo=vite) | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions) |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript) | ![PostCSS](https://img.shields.io/badge/PostCSS-8.5-DD3A0A?logo=postcss) | ![ESLint](https://img.shields.io/badge/ESLint-9.39-4B32C3?logo=eslint) | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages) |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C3?logo=typescript) | ![PostCSS](https://img.shields.io/badge/PostCSS-8.5-DD3A0A?logo=postcss) | ![ESLint](https://img.shields.io/badge/ESLint-9.39-4B32C3?logo=eslint) | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages) |
 | ![React Router](https://img.shields.io/badge/React_Router-7.13-CA4245?logo=reactrouter) | ![Lucide](https://img.shields.io/badge/Lucide_Icons-0.563-F56565) | | |
 
 </div>
 
 ---
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
 
 ```
 ong-template/
 ├── src/
 │   ├── components/
-│   │   ├── home/          # Home page components
+│   │   ├── home/          # Componentes da página inicial
 │   │   └── layout/        # Header, Footer
-│   ├── pages/             # Route pages
-│   ├── App.tsx            # Router configuration
-│   └── index.css          # Global styles + theme
-├── public/                # Static assets
+│   ├── pages/             # Páginas de rotas
+│   ├── App.tsx            # Configuração do roteador
+│   └── index.css          # Estilos globais + tema
+├── public/                # Assets estáticos
 ├── .github/
-│   └── workflows/         # CI/CD pipelines
-└── index.html             # Entry point with SEO meta tags
+│   └── workflows/         # Pipelines CI/CD
+└── index.html             # Ponto de entrada com meta tags SEO
 ```
 
 ---
 
-## 🎯 Key Components
+## 🎯 Componentes Principais
 
-### 🏠 Home Page
-- Hero section with compelling CTA
-- Mission statement
-- Impact gallery
-- Donation call-to-action
+### 🏠 Página Inicial
+- Seção hero com CTA atraente
+- Declaração de missão
+- Galeria de impacto
+- Chamada para ação de doação
 
-### 📄 Pages
-- **About** - Organization story and team
-- **Projects** - Showcase your impact
-- **Donate** - Secure donation forms
+### 📄 Páginas
+- **Sobre** - História da organização e equipe
+- **Projetos** - Mostre seu impacto
+- **Doar** - Formulários de doação seguros
 
-### 🧩 Reusable Components
-- Responsive navigation
-- Footer with social links
-- Accessible forms
-- Image galleries
+### 🧩 Componentes Reutilizáveis
+- Navegação responsiva
+- Footer com links sociais
+- Formulários acessíveis
+- Galerias de imagens
 
 ---
 
-## 🔧 Customization
+## 🔧 Personalização
 
-### Update Colors
+### Atualizar Cores
 
-Edit `src/index.css`:
+Edite `src/index.css`:
 
 ```css
 @theme {
-  --color-brand-primary: #0891B2;  /* Your primary color */
-  --color-brand-accent: #F97316;   /* Your accent color */
+  --color-brand-primary: #0891B2;  /* Sua cor primária */
+  --color-brand-accent: #F97316;   /* Sua cor de acento */
 }
 ```
 
-### Update Content
+### Atualizar Conteúdo
 
-1. **Meta Tags**: Edit `index.html`
-2. **Pages**: Modify files in `src/pages/`
-3. **Components**: Update `src/components/`
+1. **Meta Tags**: Edite `index.html`
+2. **Páginas**: Modifique arquivos em `src/pages/`
+3. **Componentes**: Atualize `src/components/`
 
-### Add New Pages
+### Adicionar Novas Páginas
 
 ```tsx
-// src/pages/NewPage.tsx
-export const NewPage = () => {
-  return <div>Your content</div>;
+// src/pages/NovaPagina.tsx
+export const NovaPagina = () => {
+  return <div>Seu conteúdo</div>;
 };
 
 // src/App.tsx
-<Route path="/new-page" element={<NewPage />} />
+<Route path="/nova-pagina" element={<NovaPagina />} />
 ```
 
 ---
 
-## 🧪 Testing
+## 🧪 Testes
 
 ```bash
-# Run linter
+# Executar linter
 npm run lint
 
-# Type check
+# Verificação de tipos
 npm run build
 
-# Preview production build
+# Visualizar build de produção
 npm run preview
 ```
 
@@ -219,76 +219,74 @@ npm run preview
 
 ## 📈 Performance
 
-- **Bundle Size**: 253 KB (80 KB gzipped)
-- **Build Time**: ~7 seconds
-- **Core Web Vitals**: All green ✅
+- **Tamanho do Bundle**: 253 KB (80 KB comprimido)
+- **Tempo de Build**: ~7 segundos
+- **Core Web Vitals**: Todos verdes ✅
   - LCP: < 2.5s
   - FID: < 100ms
   - CLS: < 0.1
 
 ---
 
-## ♿ Accessibility
+## ♿ Acessibilidade
 
-- ✅ WCAG AAA compliant
-- ✅ High contrast ratios (7:1+)
-- ✅ Keyboard navigation
-- ✅ Screen reader friendly
-- ✅ Semantic HTML
-- ✅ ARIA labels where needed
-
----
-
-## 🔒 Security
-
-- ✅ 0 npm vulnerabilities
-- ✅ No exposed secrets
-- ✅ XSS protection (React default)
-- ✅ HTTPS only (GitHub Pages)
+- ✅ Compatível com WCAG AAA
+- ✅ Taxas de contraste altas (7:1+)
+- ✅ Navegação por teclado
+- ✅ Amigável para leitores de tela
+- ✅ HTML semântico
+- ✅ Labels ARIA quando necessário
 
 ---
 
-## 📝 License
+## 🔒 Segurança
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- ✅ 0 vulnerabilidades npm
+- ✅ Sem segredos expostos
+- ✅ Proteção XSS (padrão React)
+- ✅ Apenas HTTPS (GitHub Pages)
 
 ---
 
-## 💖 Acknowledgments
+## 📝 Licença
 
-- Design system inspired by modern nonprofit best practices
-- Icons by [Lucide](https://lucide.dev/)
-- Fonts from [Google Fonts](https://fonts.google.com/)
-- Built with [Vite](https://vitejs.dev/) and [React](https://react.dev/)
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
 
-## 📧 Contact
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
+
+1. Faça um fork do projeto
+2. Crie sua branch de funcionalidade (`git checkout -b feature/FuncionalidadeIncrivel`)
+3. Commit suas mudanças (`git commit -m 'Adiciona alguma FuncionalidadeIncrivel'`)
+4. Push para a branch (`git push origin feature/FuncionalidadeIncrivel`)
+5. Abra um Pull Request
+
+---
+
+## 💖 Agradecimentos
+
+- Sistema de design inspirado nas melhores práticas modernas de organizações sem fins lucrativos
+- Ícones por [Lucide](https://lucide.dev/)
+- Fontes do [Google Fonts](https://fonts.google.com/)
+- Construído com [Vite](https://vitejs.dev/) e [React](https://react.dev/)
+
+---
+
+## 📧 Contato
 
 **Vihi Santos** - [@vihisantos](https://github.com/vihisantos)
 
-**Project Link**: [https://github.com/vihisantos/ong-template](https://github.com/vihisantos/ong-template)
+**Link do Projeto**: [https://github.com/vihisantos/ong-template](https://github.com/vihisantos/ong-template)
 
-**Live Demo**: [https://vihisantos.github.io/ong-template/](https://vihisantos.github.io/ong-template/)
+**Demo ao Vivo**: [https://vihisantos.github.io/ong-template/](https://vihisantos.github.io/ong-template/)
 
 ---
 
 <div align="center">
 
-**Made with 💙 for nonprofits making a difference**
-
-⭐ Star this repo if you find it helpful!
+Feito por Capybara Holding.
 
 </div>
