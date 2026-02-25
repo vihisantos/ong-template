@@ -1,35 +1,76 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- SEO Meta Tags -->
-    <title>LoveFlow - Organização Sem Fins Lucrativos | Esperança para Todo Coração</title>
-    <meta name="description" content="LoveFlow conecta generosidade e necessidade. Junte-se a um movimento dedicado à mudança social através de projetos impactantes e doações transparentes." />
-    <meta name="keywords" content="ONG, caridade, doação, impacto social, voluntariado, nonprofit, organização social" />
-    <meta name="author" content="LoveFlow" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://vihisantos.github.io/ong-template/" />
-    <meta property="og:title" content="LoveFlow - Esperança para Todo Coração" />
-    <meta property="og:description" content="Conectamos generosidade e necessidade através de projetos impactantes e doações transparentes." />
-    <meta property="og:image" content="https://vihisantos.github.io/ong-template/og-image.jpg" />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://vihisantos.github.io/ong-template/" />
-    <meta property="twitter:title" content="LoveFlow - Esperança para Todo Coração" />
-    <meta property="twitter:description" content="Conectamos generosidade e necessidade através de projetos impactantes." />
-    <meta property="twitter:image" content="https://vihisantos.github.io/ong-template/og-image.jpg" />
-    
-    <!-- Theme Color -->
-    <meta name="theme-color" content="#0891B2" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>LoveFlow - Organização Sem Fins Lucrativos | Esperança para Todo Coração</title>
+  <meta name="description"
+    content="LoveFlow conecta generosidade e necessidade. Junte-se a um movimento dedicado à mudança social através de projetos impactantes e doações transparentes." />
+  <meta name="keywords" content="ONG, caridade, doação, impacto social, voluntariado, nonprofit, organização social" />
+  <meta name="author" content="LoveFlow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://vihisantos.github.io/ong-template/" />
+  <meta property="og:title" content="LoveFlow - Esperança para Todo Coração" />
+  <meta property="og:description"
+    content="Conectamos generosidade e necessidade através de projetos impactantes e doações transparentes." />
+  <meta property="og:image" content="https://vihisantos.github.io/ong-template/og-image.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://vihisantos.github.io/ong-template/" />
+  <meta property="twitter:title" content="LoveFlow - Esperança para Todo Coração" />
+  <meta property="twitter:description"
+    content="Conectamos generosidade e necessidade através de projetos impactantes." />
+  <meta property="twitter:image" content="https://vihisantos.github.io/ong-template/og-image.jpg" />
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0891B2" />
+
+  <!-- Security / Anti-Copy Script -->
+  <script>
+    // Block right-click context menu
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+    // Block text selection, copying, cutting, and dragging
+    document.addEventListener('selectstart', (e) => e.preventDefault());
+    document.addEventListener('copy', (e) => e.preventDefault());
+    document.addEventListener('cut', (e) => e.preventDefault());
+    document.addEventListener('dragstart', (e) => e.preventDefault());
+
+    // Block developer tools shortcuts (F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, etc.)
+    document.addEventListener('keydown', (e) => {
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i')) ||
+        (e.ctrlKey && e.shiftKey && (e.key === 'C' || e.key === 'c')) ||
+        (e.ctrlKey && e.shiftKey && (e.key === 'J' || e.key === 'j')) ||
+        (e.ctrlKey && (e.key === 'U' || e.key === 'u'))
+      ) {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // Anti-debugging (makes inspecting difficult by pausing execution continually if devtools is open)
+    setInterval(() => {
+      const start = performance.now();
+      debugger;
+      if (performance.now() - start > 100) {
+        document.body.innerHTML = 'Acesso Restrito';
+      }
+    }, 100);
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

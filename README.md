@@ -7,7 +7,7 @@
 **Um template moderno, acessível e bonito para organizações sem fins lucrativos**
 
 [![Demo ao Vivo](https://img.shields.io/badge/demo-ao_vivo-success?style=for-the-badge)](https://vihisantos.github.io/ong-template/)
-[![Licença](https://img.shields.io/badge/licença-MIT-blue?style=for-the-badge)](LICENSE)
+[![Licença](https://img.shields.io/badge/licença-Proprietária-red?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
@@ -38,48 +38,6 @@
 - 📚 Organizações Educacionais sem Fins Lucrativos
 - 🤝 Projetos de Impacto Social
 - 💚 Campanhas de Caridade e Arrecadação de Fundos
-
----
-
-## 🚀 Início Rápido
-
-### Pré-requisitos
-
-- Node.js 20+ 
-- npm ou yarn
-
-### Instalação
-
-```bash
-# Clone o repositório
-git clone https://github.com/vihisantos/ong-template.git
-
-# Navegue até o diretório do projeto
-cd ong-template
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
-```
-
-Visite `http://localhost:5173` para ver seu app! 🎉
-
----
-
-## 📦 Build e Deploy
-
-```bash
-# Build para produção
-npm run build
-
-# Visualizar build de produção
-npm run preview
-
-# Deploy no GitHub Pages (automático via GitHub Actions)
-git push origin main
-```
 
 ---
 
@@ -250,19 +208,12 @@ npm run preview
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+**CÓDIGO FECHADO E PROTEGIDO POR DIREITOS AUTORAIS**
 
----
+Este projeto é de **uso exclusivo** e possui código-fonte fechado. 
+**É TERMINANTEMENTE PROIBIDA** a cópia, reprodução, distribuição, engenharia reversa, alteração ou comercialização parcial ou total de qualquer parte deste sistema, código, design ou assets. 
 
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
-
-1. Faça um fork do projeto
-2. Crie sua branch de funcionalidade (`git checkout -b feature/FuncionalidadeIncrivel`)
-3. Commit suas mudanças (`git commit -m 'Adiciona alguma FuncionalidadeIncrivel'`)
-4. Push para a branch (`git push origin feature/FuncionalidadeIncrivel`)
-5. Abra um Pull Request
+O descumprimento destas regras resultará em **Ação Judicial** imediata por violação de propriedade intelectual e direitos autorais. Veja o arquivo [LICENSE](LICENSE) para detalhes completos e restrições.
 
 ---
 
